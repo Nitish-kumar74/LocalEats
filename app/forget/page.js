@@ -75,7 +75,7 @@ export default function ForgotPassword() {
             </div>
             <h2 className="text-2xl font-bold text-white mb-2">Password Reset Sent</h2>
             <p className="text-gray-400 mb-4">
-              We've sent a password reset link to <span className="text-amber-400">{email}</span>.
+              We&apos;ve sent a password reset link to <span className="text-amber-400">{email}</span>.
             </p>
             
             {!showTroubleshoot ? (
@@ -84,7 +84,7 @@ export default function ForgotPassword() {
                   onClick={() => setShowTroubleshoot(true)}
                   className="text-sm text-amber-400 hover:underline mb-6"
                 >
-                  Didn't receive the email?
+                  Didn&apos;t receive the email?
                 </button>
                 <button
                   onClick={() => router.push('/login')}
@@ -151,7 +151,7 @@ export default function ForgotPassword() {
         <div className="p-8 sm:p-10">
           <h2 className="text-2xl font-bold text-white mb-6 text-center">Forgot Password</h2>
           <p className="text-gray-400 text-sm mb-6 text-center">
-            Enter your email address and we'll send you a link to reset your password.
+            Enter your email address and we&apos;ll send you a link to reset your password.
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-6">
