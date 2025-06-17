@@ -1,0 +1,312 @@
+// app/shops/data.js
+export const shops = [
+
+  {
+    id: "1",
+    name: "Jodhpur Misthan Bhandar",
+    category: "Sweets & Snacks",
+    location: "Bypass Baragaon",
+    description: "Famous for traditional Rajasthani sweets and snacks since 1985.",
+    openingHours: "9:00 AM - 10:00 PM",
+    contact: "+91 9876543210",
+    rating: 4.5,
+    images: [
+      "/shop1.avif",    // Main shop image (AVIF format)
+      "/shop1/1.jpg",         // Additional images
+      "/shop1/2.jpg",
+      "/shop1/3.jpg",
+      "/shop1/4.jpg",
+      "/shop1/5.jpg",
+      "/shop1/6.jpg",
+      "/shop1/7.jpg",
+      "/shop1/8.jpg",
+      "/shop1/9.jpg"
+    ]
+  },
+  {
+    id: "2",
+    name: "Nacho  Restaurant",
+    category: "Restaurant",
+    location: "College Stand Baragaon",
+    description: "Popular local restaurant serving snacks and sweets.",
+    openingHours: "8:00 AM - 11:00 PM",
+    contact: "+91 9876543211",
+    rating: 4.2,
+    images: [
+      "/shop2.jpg",
+      "/shop2/1.jpg",         // Additional images
+      "/shop2/2.avif",
+      "/shop2/3.jpg",
+      "/shop2/4.jpg",
+      "/shop2/5.jpg",
+      "/shop2/6.jpg",
+    ]
+  },
+  {
+    id: "3",
+    name: "Hari Misthan Bhandar",
+    category: "Sweets & Snacks",
+    location: "College Stand Baragaon",
+    description: "Specializes in traditional sweets, snacks, and cold drinks.",
+    openingHours: "8:00 AM - 11:00 PM",
+    contact: "+91 9876543212",
+    rating: 4.2,
+    images: [
+      "/shop3.jpg",
+      "/shop3/1.jpg",         // Additional images
+      "/shop3/2.jpg",
+      "/shop3/3.jpg",
+      "/shop3/4.jpg",
+      "/shop3/5.jpg",
+      "/shop3/6.jpg",
+      "/shop3/7.jpg",
+      "/shop3/8.jpg",
+    ]
+  },
+  {
+    id: "4",
+    name: "Chotmal Chat Bhander",
+    category: "Street Food",
+    location: "Bypass Stand Baragaon",
+    description: "Famous for samosas and kachoris.",
+    openingHours: "7:00 AM - 10:00 PM",
+    contact: "+91 9876543213",
+    rating: 4.3,
+    images: ["/shop4.avif",
+      "/shop4/1.jpg",         // Additional images
+      "/shop4/2.jpg",
+      "/shop4/3.jpg",
+      "/shop4/4.jpg",
+      "/shop4/5.jpg",
+      "/shop4/6.jpg",
+      "/shop4/7.jpg",
+      "/shop4/8.jpg",
+    ]
+  },
+  {
+    id: "5",
+    name: "Natraj Misthan Bhander",
+    category: "Sweets & General Store",
+    location: "Near Mosque Baragaon",
+    description: "Combination sweet shop and general store.",
+    openingHours: "8:00 AM - 10:30 PM",
+    contact: "+91 9876543214",
+    rating: 4.0,
+    images: ["/shop5.jpg",
+      "/shop5/1.jpg",         // Additional images
+      "/shop5/2.jpg",
+      "/shop5/3.jpg",
+      "/shop5/4.jpg",
+      "/shop5/5.jpg",
+      "/shop5/6.jpg",
+      "/shop5/7.jpg",
+      "/shop5/8.jpg",
+      "/shop5/9.jpg",
+      "/shop5/10.jpg",
+      "/shop5/11.jpg",
+    ]
+  },
+  {
+    id: "6",
+    name: "Mahakal Fast Food",
+    category: "Restaurant",
+    location: "Bhalodhiya Complex Baragaon",
+    description: "Fast food restaurant with variety of options.",
+    openingHours: "9:00 AM - 11:00 PM",
+    contact: "+91 9876543215",
+    rating: 4.1,
+    images: ["/shop6.jpg",
+      "/shop6/1.jpg",         // Additional images
+      "/shop6/2.jpg",
+      "/shop6/3.jpg",
+      "/shop6/4.jpg",
+      "/shop6/5.jpg",
+      "/shop6/6.jpg",
+    ]
+  },
+  {
+    id: "7",
+    name: "Kanika Fast Food",
+    category: "Cafe",
+    location: "Main Market Baragaon",
+    description: "Snacks and cakes shop with cozy atmosphere.",
+    openingHours: "8:30 AM - 10:30 PM",
+    contact: "+91 9876543216",
+    rating: 4.4,
+    images: ["/shop7.jpg",
+      "/shop7/1.jpg",         // Additional images
+      "/shop7/2.jpg",
+      "/shop7/3.avif",
+      "/shop7/4.jpg",
+      "/shop7/5.jpg",
+      "/shop7/6.webp",
+
+
+    ]
+  },
+  {
+    id: "8",
+    name: "Lavish Pizza Point",
+    category: "Pizza Shop",
+    location: "Bhalodhiya Complex Baragaon",
+    description: "Specialty pizza and snacks shop.",
+    openingHours: "10:00 AM - 11:00 PM",
+    contact: "+91 9876543217",
+    rating: 4.3,
+    images: ["/shop8.jpg",
+      "/shop8/1.jpg",         // Additional images
+      "/shop8/2.jpg",
+      "/shop8/3.avif",
+      "/shop8/4.jpg",
+      "/shop8/5.jpg",
+      "/shop8/6.jpg",
+      "/shop8/7.jpg",
+      "/shop8/8.jpg",
+      "/shop8/9.avif",
+
+
+    ]
+  },
+  {
+    id: "9",
+    name: "Power House Gym",
+    category: "Gym",
+    location: "Near Pan Shop Baragaon",
+    description: "Fully equipped gym with professional trainers.",
+    openingHours: "Morning = 5:00 AM - 10:00 PM  evening = 4:00 pm - 9:00 pm",
+    contact: "+91 9876543218",
+    membership: "600/- one month",
+    rating: 4.6,
+    images: ["/gym9.jpg",
+      "/shop9/1.jpg",         // Additional images
+      "/shop9/2.jpg",
+      "/shop9/3.jpg",
+      "/shop9/4.jpg",
+      "/shop9/5.jpg",
+      "/shop9/6.jpg",
+      "/shop9/7.jpg",
+      "/shop9/8.jpg",
+      "/shop9/9.webp",
+      "/shop9/10.jpg",
+      "/shop9/11.jpg",
+      "/shop9/12.jpg",
+    ]
+  },
+  {
+    id: "10",
+    name: "Pawan Pan Shop",
+    category: "Tobacco Shop",
+    location: "Near Central Bank Baragaon",
+    description: "Pan masala and tobacco products.",
+    openingHours: "7:00 AM - 11:00 PM",
+    contact: "+91 9876543219",
+    rating: 3.9,
+    images: ["/shop10.avif", 
+      "/shop10/1.jpg",         // Additional images
+      "/shop10/2.jpg",
+      "/shop10/3.jpg",
+      "/shop10/4.jpg",
+      "/shop10/5.jpg",
+      "/shop10/6.jpg",
+      "/shop10/7.jpg",
+      "/shop10/8.jpg",
+      "/shop10/9.jpg",
+    ]
+  },
+  {
+    id: "11",
+    name: "Prince Library & Tuition Center",
+    category: "Education",
+    location: "Hansalsar Stand Baragaon",
+    description: "Library and coaching center for students.",
+    openingHours: "8:00 AM - 8:00 PM",
+    join: "500/- one month",
+    contact: "+91 9876543220",
+    rating: 4.5,
+    images: ["/shop11.webp", 
+       "/shop11/1.jpg",         // Additional images
+      "/shop11/2.jpg",
+      "/shop11/3.avif",
+      "/shop11/4.jpg",
+      "/shop11/5.jpg",
+      "/shop11/6.jpg",
+      "/shop11/7.jpg",
+    ]
+  },
+  {
+    id: "12",
+    name: "Study Point Library",
+    category: "Education",
+    location: "Hansalsar Stand Baragaon",
+    description: "Educational resources and study materials.",
+    openingHours: "8:00 AM - 8:00 PM",
+    join: "500/- one month",
+    contact: "+91 9876543221",
+    rating: 4.4,
+    images: ["/shop12.jpg", 
+      "/shop12/1.jpg",         // Additional images
+      "/shop12/2.jpg",
+      "/shop12/3.jpg",
+      "/shop12/4.jpg",
+      "/shop12/5.jpg",
+      "/shop12/6.jpg",
+    ]
+  },
+  {
+    id: "13",
+    name: "Success Library",
+    category: "Education",
+    location: "Bhalodhiya Complex Baragaon",
+    description: "Coaching center and book library.",
+    openingHours: "8:00 AM - 8:00 PM",
+    join: "500/- one month",
+    contact: "+91 9876543222",
+    rating: 4.3,
+    images: ["/shop13.avif", 
+      "/shop13/1.jpg",         // Additional images
+      "/shop13/2.avif",
+      "/shop13/3.jpg",
+      "/shop13/4.jpg",
+      "/shop13/5.jpg",
+
+    ]
+  },
+  {
+    id: "14",
+    name: "SDR Library",
+    category: "Education",
+    location: "Central Bank Baragaon",
+    description: "Educational center with comprehensive resources.",
+    openingHours: "8:00 AM - 8:00 PM",
+    join: "500/- one month",
+    contact: "+91 9876543223",
+    rating: 4.2,
+    images: ["/shop14.jpg", 
+      "/shop14/1.jpg",         // Additional images
+      "/shop14/2.jpg",
+      "/shop14/3.webp",
+      "/shop14/4.jpg",
+      "/shop14/5.jpg",
+
+    ]
+  },
+  {
+    id: "15",
+    name: "Vinayak Library",
+    category: "Education",
+    location: "Baroda Bank Baragaon",
+    description: "Study center and book rental service.",
+    openingHours: "8:00 AM - 8:00 PM",
+    join: "500/- one month",
+    contact: "+91 9876543224",
+    rating: 4.4,
+    images: ["/shop15.avif", 
+      "/shop15/1.jpg",         // Additional images
+      "/shop15/2.jpg",
+      "/shop15/3.jpg",
+      "/shop15/4.jpg",
+      "/shop15/5.jpg",
+      "/shop15/6.jpg",
+    ]
+  }
+];
