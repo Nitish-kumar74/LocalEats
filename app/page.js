@@ -576,7 +576,8 @@ export default function Home() {
                 href="/signup" 
                 className="flex items-center justify-center px-8 py-4 rounded-full bg-white text-red-600 font-bold shadow-lg hover:shadow-xl transition-all"
               >
-                Sign Up Now - It's Free
+               <p>It&apos;s free to sign up!</p>
+
               </Link>
             </motion.div>
             <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
