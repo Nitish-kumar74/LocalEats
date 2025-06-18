@@ -3,6 +3,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 
@@ -215,14 +216,15 @@ export default function Shops() {
                 key={shop.id}
                 className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-1"
               >
-                {/* Shop Image */}
-                <div className="h-48 overflow-hidden">
-                  <img 
-                    src={shop.image} 
-                    alt={shop.name}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+               <div className="h-48 overflow-hidden relative">
+  <Image 
+    src={shop.image} 
+    alt={shop.name}
+    fill
+    className="object-cover"
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+  />
+</div>
                 
                 <div className="p-6">
                   <div className="flex items-center justify-between mb-4">

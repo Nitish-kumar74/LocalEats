@@ -101,14 +101,14 @@ export default function HowItWorks() {
               Shop directly through the app and enjoy exclusive local deals.
             </p>
             <div className="space-y-3">
-              <div className="flex items-center justify-between bg-gray-50 p-3 rounded-lg">
+              <div className="flex items-center text-black justify-between bg-gray-50 p-3 rounded-lg">
                 <span>Online Orders</span>
                 <span className="bg-green-500 text-white text-xs px-2 py-1 rounded">NEW</span>
               </div>
-              <div className="flex items-center justify-between bg-gray-50 p-3 rounded-lg">
+              <div className="flex items-center text-black justify-between bg-gray-50 p-3 rounded-lg">
                 <span>Gift Cards</span>
               </div>
-              <div className="flex items-center justify-between bg-gray-50 p-3 rounded-lg">
+              <div className="flex items-center text-black justify-between bg-gray-50 p-3 rounded-lg">
                 <span>Local Delivery</span>
               </div>
             </div>
