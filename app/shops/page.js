@@ -1,6 +1,5 @@
 //shops/page.js
-'use client'; // Required for using React hooks in Next.js
-
+'use client';
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
